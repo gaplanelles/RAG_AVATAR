@@ -1,0 +1,34 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.webcam-wrapper {
+    margin-right: 5px;
+    width: 60%;
+}
+
+.description-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    width: 300px;
+}
+
+.rounded-video {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.video-title {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}

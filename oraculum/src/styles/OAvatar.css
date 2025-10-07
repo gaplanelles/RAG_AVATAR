@@ -1,0 +1,9 @@
+.avatar-container{
+
+  .avatar-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover !important;
+    border-radius: 10px !important;
+  }
+}

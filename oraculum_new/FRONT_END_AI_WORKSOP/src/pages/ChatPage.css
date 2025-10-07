@@ -1,0 +1,33 @@
+.input-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#userInput {
+  flex-grow: 1;
+  padding: 10px;
+  padding-right: 40px;
+  border: 1px solid #B7B5B3;
+  border-radius: 24px;
+  font-size: 14px;
+}
+
+#sendButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #69615c;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.chat-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+} 

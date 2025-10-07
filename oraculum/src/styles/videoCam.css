@@ -1,0 +1,26 @@
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+.webcam-wrapper {
+    margin-right: 20px; /* Espacio entre el video y la descripción */
+}
+
+.description-box {
+    border: 1px solid #ccc; /* Borde del recuadro */
+    padding: 10px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+    width: 300px; /* Ancho del recuadro */
+}
+.rounded-video {
+    border-radius: 15px; /* Ajusta el valor según el grado de redondeo que desees */
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+}
+
+.video-title {
+    text-align: left; /* Centra el texto */
+    margin-bottom: 15px; /* Espacio debajo del título */
+    margin-left: 20px;
+}

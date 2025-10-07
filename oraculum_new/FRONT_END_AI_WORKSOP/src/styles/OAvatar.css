@@ -1,0 +1,13 @@
+.avatar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .avatar-video{
+    height: 80%;
+    width: 80%;
+    object-fit: cover !important;
+    border-radius: 10px !important;
+
+  }
+}

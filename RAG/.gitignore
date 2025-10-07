@@ -1,0 +1,33 @@
+.env
+# Python cache files
+**/__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Data
+data_test/
+chunks/
+docs/rag_setup_merged.json
+config/
+old_data/
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.sqlite3
+chroma_db/
+
+# IDE-specific files (if you're using an IDE)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

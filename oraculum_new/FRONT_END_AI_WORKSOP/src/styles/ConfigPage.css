@@ -1,0 +1,14 @@
+.config-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(252, 251, 250, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.config-page h2 {
+  color: #312d2a;
+  margin-bottom: 20px;
+}
+

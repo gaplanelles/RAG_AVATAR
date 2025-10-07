@@ -71,7 +71,7 @@ class PrivateSettings(BaseSettings):
     LOG_BACKUP_COUNT: int = 5
 
     # CORS Settings
-    CORS_ALLOW_ORIGINS: list[str] = ["http://139.185.59.9:9002", "https://aion-czech.netlify.app"]
+    CORS_ALLOW_ORIGINS: list[str] = ["http://139.185.59.9:9003", "https://aion-czech.netlify.app"]
     CORS_ALLOW_METHODS: list[str] = ["GET", "POST", "OPTIONS"]
     CORS_ALLOW_HEADERS: list[str] = ["*"]
     CORS_ALLOW_CREDENTIALS: bool = True
